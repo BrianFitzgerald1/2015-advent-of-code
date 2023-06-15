@@ -23,3 +23,6 @@ print(increase)
 
 decrease = puzzle_input.count(")")
 print(decrease)
+
+floor = increase - decrease
+print(floor)
