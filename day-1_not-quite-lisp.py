@@ -37,3 +37,13 @@ For example:
 ()()) causes him to enter the basement at character position 5.
 What is the position of the character that causes Santa to first enter the basement?
 """
+
+level = 0
+while level > -1:
+    for character in puzzle_input:
+        direction = character
+        if direction == "(":
+            level += 1
+        else:
+            level -= 1
+print(level)
