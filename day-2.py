@@ -11,3 +11,5 @@ All numbers in the elves' list are in feet. How many total square feet of wrappi
 
 from pathlib import Path
 
+path = Path('txt-files/day-2_puzzle_input.txt')
+contents = path.read_text()
