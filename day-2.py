@@ -9,9 +9,16 @@ A present with dimensions 2x3x4 requires 2*6 + 2*12 + 2*8 = 52 square feet of wr
 A present with dimensions 1x1x10 requires 2*1 + 2*10 + 2*10 = 42 square feet of wrapping paper plus 1 square foot of slack, for a total of 43 square feet.
 All numbers in the elves' list are in feet. How many total square feet of wrapping paper should they order?"""
 
+from pathlib import Path
 
-with open("txt-files/day-2_puzzle_input.txt") as file:
-    file.readlines()
-    print(file)
+path = Path('txt-files/day-2_puzzle_input.txt')
+
+contents = path.read_text()
+print(contents)
+# print(path)
+
+# with open("txt-files/day-2_puzzle_input.txt") as file:
+# file.readlines()
+# print(file)
 # for dimension in file:
-    # removesufile[dimension-1]
+# removesufile[dimension-1]
