@@ -15,11 +15,3 @@ from pathlib import Path
 path = Path('txt-files/day-2_puzzle_input.txt')
 
 contents = path.read_text()
-print(contents)
-# print(path)
-
-# with open("txt-files/day-2_puzzle_input.txt") as file:
-# file.readlines()
-# print(file)
-# for dimension in file:
-# removesufile[dimension-1]
