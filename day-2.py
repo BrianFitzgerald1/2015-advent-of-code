@@ -15,3 +15,6 @@ from pathlib import Path
 path = Path('txt-files/day-2_puzzle_input.txt')
 
 contents = path.read_text()
+path2 = Path('json-files/day-2_puzzle.json')
+lines = contents.splitlines()
+# for line in lines:
